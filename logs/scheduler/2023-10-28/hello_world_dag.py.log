@@ -1,0 +1,18 @@
+[2023-10-28T16:09:48.401+0000] {processor.py:157} INFO - Started process (PID=38) to work on /opt/airflow/dags/hello_world_dag.py
+[2023-10-28T16:09:48.403+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hello_world_dag.py for tasks to queue
+[2023-10-28T16:09:48.408+0000] {logging_mixin.py:151} INFO - [2023-10-28T16:09:48.408+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hello_world_dag.py
+[2023-10-28T16:09:48.475+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world_every_5_minutes']) retrieved from /opt/airflow/dags/hello_world_dag.py
+[2023-10-28T16:09:48.658+0000] {logging_mixin.py:151} INFO - [2023-10-28T16:09:48.658+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-28T16:09:48.668+0000] {logging_mixin.py:151} INFO - [2023-10-28T16:09:48.668+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-28T16:09:48.674+0000] {logging_mixin.py:151} INFO - [2023-10-28T16:09:48.674+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-28T16:09:48.675+0000] {logging_mixin.py:151} INFO - [2023-10-28T16:09:48.675+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T16:09:48.687+0000] {logging_mixin.py:151} INFO - [2023-10-28T16:09:48.687+0000] {dag.py:2963} INFO - Creating ORM DAG for hello_world_every_5_minutes
+[2023-10-28T16:09:48.696+0000] {logging_mixin.py:151} INFO - [2023-10-28T16:09:48.696+0000] {dag.py:3722} INFO - Setting next_dagrun for hello_world_every_5_minutes to 2022-04-20T00:00:00+00:00, run_after=2022-04-21T00:00:00+00:00
+[2023-10-28T16:09:48.716+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_world_dag.py took 0.321 seconds
+[2023-10-28T16:10:18.827+0000] {processor.py:157} INFO - Started process (PID=56) to work on /opt/airflow/dags/hello_world_dag.py
+[2023-10-28T16:10:18.832+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hello_world_dag.py for tasks to queue
+[2023-10-28T16:10:18.840+0000] {logging_mixin.py:151} INFO - [2023-10-28T16:10:18.839+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hello_world_dag.py
+[2023-10-28T16:10:18.964+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hello_world_every_5_minutes']) retrieved from /opt/airflow/dags/hello_world_dag.py
+[2023-10-28T16:10:19.039+0000] {logging_mixin.py:151} INFO - [2023-10-28T16:10:19.039+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T16:10:19.132+0000] {logging_mixin.py:151} INFO - [2023-10-28T16:10:19.131+0000] {dag.py:3722} INFO - Setting next_dagrun for hello_world_every_5_minutes to 2022-04-20T00:00:00+00:00, run_after=2022-04-21T00:00:00+00:00
+[2023-10-28T16:10:19.174+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_world_dag.py took 0.350 seconds

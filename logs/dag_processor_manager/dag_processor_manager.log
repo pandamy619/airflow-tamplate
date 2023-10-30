@@ -1,0 +1,30 @@
+[2023-10-28T16:09:48.297+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-10-28T16:09:48.298+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-10-28T16:09:48.299+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-10-28T16:09:48.300+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-10-28T16:09:48.326+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-28T16:09:48.443+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/hello_world_dag.py                   38  0.08s             0           0
+/opt/airflow/dags/tasks/hello_world/hello_world.py     39  0.06s             0           0
+================================================================================
+[2023-10-28T16:10:18.689+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/tasks/hello_world/hello_world.py     55  0.01s             0           0  0.10s           2023-10-28T16:09:48
+/opt/airflow/dags/hello_world_dag.py                                         1           0  0.37s           2023-10-28T16:09:48
+================================================================================
+[2023-10-28T16:10:44.186+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2023-10-30T11:53:29.972+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-10-30T11:53:29.975+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-10-30T11:53:29.976+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-10-30T11:53:29.978+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-10-30T11:53:29.999+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2023-10-30T11:53:31.541+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15

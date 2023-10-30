@@ -1,0 +1,5 @@
+[2023-10-30T11:53:30.057+0000] {processor.py:157} INFO - Started process (PID=31) to work on /opt/airflow/dags/tasks/hello_world/hello_world.py
+[2023-10-30T11:53:30.064+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/tasks/hello_world/hello_world.py for tasks to queue
+[2023-10-30T11:53:30.067+0000] {logging_mixin.py:151} INFO - [2023-10-30T11:53:30.067+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/hello_world/hello_world.py
+[2023-10-30T11:53:30.070+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/hello_world/hello_world.py
+[2023-10-30T11:53:30.086+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/tasks/hello_world/hello_world.py took 0.035 seconds
